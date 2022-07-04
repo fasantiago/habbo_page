@@ -1,0 +1,33 @@
+/* Estilo geral da <NAV> */
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Poppins:wght@500&family=Roboto:wght@300;400&family=Ubuntu+Condensed&display=swap');
+
+#nav-principal {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    top: 18.5em;
+    right: -53.1em;
+}
+#nav-principal ul {
+    display: flex;
+}
+/* nav li style */
+#nav-principal li {
+    list-style-type: none;
+}
+#nav-principal a {
+    color: white;
+    text-decoration: none;
+    margin: 3.9px;
+    font-size: 14.9pt;
+    font-family: Poppins, sans-serif;
+    border-radius: 1px;
+    color: rgba(0, 0, 24, 0.829);
+}
+#nav-principal a:hover {
+    border-radius: 3px;
+    transition-duration: 0.5s, 0.5s;
+    animation-delay: 0.5s;
+    color: black;
+}

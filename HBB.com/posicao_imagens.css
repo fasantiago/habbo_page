@@ -1,0 +1,17 @@
+/* Estilizacao principal das imagens no site */
+
+/* Posicao imagem de apresentação */
+.imagem-apresentacao-principal img {
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.267);
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    top: 13.5em;
+    right: 0;
+    bottom: 0;
+    left: 4.7em;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 140px;
+}
